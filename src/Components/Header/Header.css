@@ -1,0 +1,52 @@
+/* Header.css */
+
+.header {
+  background-color: #282c34;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Отступ между элементами */
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.header a:hover {
+  color: #61dafb; /* Цвет при наведении */
+}
+
+
+.header a.active {
+    font-weight: bold; 
+  
+}
+.haeder-app{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+a {
+ margin-right: 10px;
+}
+.login-btn {
+
+  gap: 10px;
+}
