@@ -1,6 +1,6 @@
 {
   
-   "homepage": "http://gaukhartok.github.io/todo0app-redux-",
+   "homepage": "http://",
   
    "name": "vite-todolist",
   
@@ -14,7 +14,11 @@
   
      
    "dev": "vite",
+  
+     
    "predeploy": "npm run build",
+  
+     
    "deploy": "gh-pages -d dist",
   
      
